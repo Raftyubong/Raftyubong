@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>working with css selectors</title>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+    <!--Working with the selectors CSS selectors are used to fined(or select)the html element you want to style
+    NOTE: The CSS selectors are divided into 5 categories
+
+1. simple selectors(this select element base on the name, id, class)
+2combination selectors(these select element based on the specific relationship between them)
+3. pseudo-class selectors(these select element based on a certain state)
+4. pseudo selectors(selecte and style a part of element)
+5 Attribute selectors(these selector element based on attribute or attribute value)
+
+working with the simple selectors--)
+-->
+<h3>selector by the name of an element</h3>
+<strong>you are always welcome</strong>
+
+<!--working with the combination element by name--)-->
+<h1>selector by name of element</h1>
+<details>
+    <summary>our motto is to render service to humanity</summary>
+    love <br>
+    smile <br>
+    brotherhood <br>
+    testimony <br>
+</details>
+
+<!--working with the simple selectors by id
+note; the id selectors uses the attribute of an html element to select specific element-->
+<div class="text">
+    Let God arise and let all my enemies be scattered in jesus name
+
+</div>
+<p>
+    lorem ipsum dolor sit amet, consectetur adipisicing
+</p>
+<p>
+    May the grace of our lord jesus the love of God and the sweet fellowship of the holy spirit rest and abide with us now and forever
+</p>
+<!--working with the combination of selectors
+Definition; A combination selectors is something that explains the relationship between the s selectors
+Note; css selector can contain more than one simple selector. between the simple selectors we can include a combination
+
+There are four different combinators in css
+1. Descendant selectors(space)
+2. Child selector(>)
+3 Adjacent sibilings selector(+)
+4. General sibilings selectore(~)-->
+
+<h2>Descendants selectors</h2>
+<p>The descendants selectors matches all element that are descendants of a specific element</p>
+<dev>
+    <p>God is great</p>
+    <p>God is the greatest</p>
+    <section>
+        <p>let God arise</p>
+    </section>
+</dev>
+
+<!--working with the child selector (>)
+the child selector selects element that are the child of a specific element-->
+
+<h1>Child Selector</h1>
+<p>The child selector selects all element that are the child of a specific element</p>
+
+<div>
+    <p>God is great</p>
+    <p>God is the greatest</p>
+    <section>
+        <!--Not Child, but descendant-->
+        <p>Let God arise</p>
+    </section>
+    <p>My God is always Good</p>
+</div>
+<p>The faithfulness of God is ever sure</p>
+
+<!--the adjacent sibilings selector i used to select an element that is directly after another specific element
+sibilings elements must have the same parent and adjacent means immediately following-->
+
+<h2>Adjacent sibilings Selector</h2>
+<strong>Note that the + selector is used to select element that is directly after another specific element</strong>
+
+<div>
+    <p>grace for the race</p>
+    <p>grace for the journey</p>
+</div>
+
+<p>Grace for Mercy</p>
+<p>Grace for peace</p>
+
+<div>
+    <a href="">visit u on www.tiktok.com</a> <br>
+    <a href="">visit u on www.youtube.com</a>
+</div>
+
+</body>
+</html>

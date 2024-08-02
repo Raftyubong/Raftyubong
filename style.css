@@ -1,0 +1,17 @@
+details{
+    width: 258px;
+    height: 200px;
+    border: 1px solid orangered;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+
+summary{
+    background-color: rgb(10, 10, 10);
+    width: 228px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: white;
+
+}

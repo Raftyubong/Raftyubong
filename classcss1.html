@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>method of linking cssto html</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        table{
+            width: 400px;
+            height: 200px;
+            background-color: antiquewhite;
+        }
+
+        th{
+            background-color: black;
+            color: white;
+        }
+        td{
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            background-color: #555553;
+        }
+    </style>
+</head>
+<body>
+    <!--There are 3 method of linking css to html element:
+    thus there are listed below
+1. inline method
+2. internal method
+3. external method; note this method is the most recommended to avoid your website been cloned
+
+working with the inline method; this method is when your css is written inside the html element.e.g-->
+
+<h2 style="color:rgb(66, 7, 7); text-transform: capitalize;border-bottom: 1px solid blueviolet;">working with the inline css linking method</h2>
+<p style="color: blue; font-size: 28px;">The miracles of the past are now the knowledge <br>
+of today giving to the children of men</p>
+
+<!--working with the internal method of css;
+this method is when you have the css linked at the head of your html e.g-->
+<hr>
+<h2>working with the internal CSS linking method</h2>
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>DATE OF BIRTH</th>
+        <th>GENDER</th>
+        <th>STATE OF ORIGIN</th>
+    </tr>
+         <td>Daniel</td>
+         <td>june 4th</td>
+         <td>male</td>
+         <td>abia<td>
+     </tr>
+         <td>Sarah</td>
+         <td>september 24th</td>
+         <td>Female</td>
+         <td>Lagos</td>
+     </tr> 
+</table> <br>
+<hr><br>
+<h2>working with the external css linking method</h2>
+  <details>
+      <summary>Select your favourite color</summary>
+      <form action="">
+          <input type="checkbox"><input type="color">BLUE <br>
+          <input type="checkbox"><input type="color">White <br>
+          <input type="checkbox"><input type="color">Black <br>
+          <input type="checkbox"><input type="color">Pink <br>
+          <input type="checkbox"><input type="color">purple <br>
+          <input type="checkbox"><input type="color">orange <br>
+      </form>
+  </details>
+</body>
+</html>

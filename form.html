@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form element</title>
+</head>
+<body>
+    <!--looking at the basic form element
+    1. form
+    2. label
+    3. input
+    4. select/options
+    5. button
+    6. fieldset/legend-->
+
+    <form action="#">
+        <!--Create a simple login form-->
+        <h2>Login Form</h2>
+        <label for="">Username:</label> <br>
+        <input type="text" placeholder="phone or email">
+        <br><br>
+
+        <label for="">Password:</label> <br>
+        <input type="password"><br><br>
+        <input type="submit" value="login">
+        <input type="submit" value="delete">
+
+    </form>
+
+    <br><br>
+
+    <form action="">
+        <h2>Registration form</h2>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="">First Name</label><br>
+            <input type="text" placeholder="Your Name"><br>
+
+            <label for="">Last Name</label><br>
+            <input type="text" placeholder="your surname"><br>
+
+            <label for="">Date of birth</label><br>
+            <input type="text" placeholder="Your birth day"><br>
+
+            <label for="">Gender:</label><br>
+            <select name="" id="">
+                <option value="">Select your gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Rather not say</option><br>
+            </select>
+            <br>
+            <select name="" id="">
+                    <option value="">Select of origin</option>
+                    <option value="">Abia</option>
+                    <option value="">Edo</option>
+                    <option value="">Lagos</option><br>
+            </select>
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+            <legend>contact</legend>
+            <label for="">phone number</label><br>
+                        <input type="text" placeholder="+234"><br>
+
+                        <label for="">Email:</label><br>
+                        <input type="email" placeholder="example@email.com"><br>
+
+                        <label for="">Location:</label><br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="your address here">type</textarea>
+                        <br>
+        </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+
+.Box{
+    height: 300px;
+    width: 250px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
+    
+}
+h2, strong{
+    color: blue;
+}
+body{
+    background-color: white;
+}
+details{
+    color: blueviolet;
+}
+
+.margin{
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(247, 6, 6);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.padding{
+    width: 400px;
+    height: 90px;
+    border: 1px solid rgb(8, 7, 7);
+    margin-top: 15px;
+    margin-left: justify;
+    padding-top: 12px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-left: 5px
+    
+}
+.border1{
+    width: 400px;
+    height: 90px;
+    border: 1px solid rgb(247, 6, 6);
+    margin-top: 10px;
+    margin-left: justify;
+    padding: 15px
+    
+}
+.border2{
+    width: 400px;
+    border: 1px solid rgb(8, 7, 7);
+    margin-top: 10px;
+    margin-left: justify;
+    padding: 15px
+    
+}
+.border3{
+    width: 400px;
+    height: 90px;
+    border: 1px solid rgb(247, 6, 6);
+    border-radius: 18px;
+    border-style: dotted;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 15px
+    
+}
+.color-name{
+    margin-top: 15px;
+    padding: 7px;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    
+}
+.color-rgb{
+    margin-top: 15px;
+    padding: 7px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(225, 125, 225);   
+}
+.color-hex{
+    margin-top: 15px;
+    padding: 7px;
+    width: 150px;
+    height: 150px;
+    background-color: #2c2c2c;
+    opacity: 0.9;  
+}
+.color-hsl{
+    margin-top: 15px;
+    padding: 7px;
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 100%, 50%);
+    opacity: 0.9;  
+}
+.square{
+    height: 40px;
+    width: 40px;
+    background-color: #557;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: #557;
+    border-radius: 50%;
+}
+.oval{
+    height: 80px;
+    width: 40px;
+    background-color: #557;
+    border-radius: 50%;
+}
+.trapezoid{
+    border-bottom: 50px solid #557;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 130px;
+}
+.triangle{
+    border-bottom: 50px solid #557;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 0;
+}
+ul.a{
+    list-style-type: square;
+}
+ul.b{
+    list-style-type: circle;
+}
